@@ -1,19 +1,20 @@
 # Steps to install
 
-# clone the repo
+# Clone the repo
 git clone https://github.com/vtsoft/heroandvillain.git
 
-# go to folder
+# Go to folder
 cd heroandvillain
 
-# install npm
+# Install npm
 npm install 
 
-# create the database
+# Create the database
 create herovillain_db using phpmyadmin
 
-# import the table configuration and sample data you can add the data thru the page as well
+# Import the table configuration and sample data. You can add the data thru the page as well
 in phpmyadmin goto import tab and choose a file herovillain_db.sql at heroandvillain/superhuman/api folder then go
 
-# development server
-Run "ng serve" in bash or in vs code
+# Run `ng serve` for a dev server. 
+
+# Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
