@@ -17,5 +17,7 @@ in phpmyadmin goto import tab and choose a file herovillain_db.sql at heroandvil
 
 # Run `ng serve` for a dev server. 
 
-# Navigate using the link below. The app will automatically reload if you change any of the source files.
+# Navigate using the link below. 
 `http://localhost:4200/`
+
+# The app will automatically reload if you change any of the source files.
