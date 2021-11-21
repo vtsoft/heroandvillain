@@ -1,0 +1,8 @@
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 22, 2021, 12:29 am
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
