@@ -1,0 +1,315 @@
+<div id="image_spinner" class="spinner">
+    <img src="assets/wait_loading.gif">
+    <div id="image_message" class="wait">
+        <strong>Please wait!</strong>
+        <strong>Uploading image!</strong>
+    </div>
+</div>
+<div id="data_spinner" class="spinner">
+    <img src="assets/wait_loading_data.gif">
+    <div id="data_message" class="wait">
+        <strong>Please wait!</strong>
+        <strong>Loading page!</strong>
+    </div>
+</div>
+<!-- <div id="wait_message" class="wait">
+    <a><strong>Please wait!</strong></a>
+</div> -->
+
+
+<div *ngIf="!filterActive" class="showFilterButton">
+    <!-- <a href="javascript:void(0);" class="glyphicon glyphicon-expand" (click)="showFilter()" title="Change list filter"></a> -->
+    <a class="glyphicon glyphicon-expand" (click)="showFilter()" title="Change list filter"></a>
+</div>
+<div class="panel-body filterDiv">
+    <div *ngIf="filterActive">
+        <label>Filter </label>
+        <select [(ngModel)]="filterby" name="filterby" id="filterby" class="filterby">
+                        <option value="all">All</option>
+                        <option value="hero">Hero</option>
+                        <option value="villain">Villain</option>
+                    </select>
+        <a class="btn btn-info" (click)="submitFilter()"><span class="glyphicon glyphicon-thumbs-up"></span>Submit</a>
+    </div>
+</div>
+
+<div class="col-xs-6 col-sm-6 col-lg-8 pageClickDiv" id="pageClickDiv">
+    <ul class="pageClick" id="pageClick">
+        <div *ngIf="prevNextActive">
+            <div href="#" class="pageLeft">&laquo;</div>
+            <div href="#" class="pageRight">&raquo;</div>
+        </div>
+        <div class="pageNumber" id="pageNumber">
+            <li *ngFor="let pn of pageNumber">
+                <a class="pageValue btn-xs" id="pageValue{{pn.page}}" name="pageValue" (click)="pageClickNumber(pn.page)">{{pn.page}}</a>
+            </li>
+        </div>
+    </ul>
+    <!-- <div class="pageLabel">Page &nbsp;{{pageValue}}</div> -->
+    <div class="devBy">author: <i>{{_author}}</i></div>
+</div>
+
+<div class="col-xs-5 col-sm-5 col-md-5 col-lg-6 super-human-box" id="super-human-box">
+    <tr *ngFor="let superhuman of superhumans">
+        <div class="human-box">
+
+            <p class="human-box-name"><strong>{{superhuman.name}}</strong></p>
+            <p class="human-box-char">({{superhuman.heroorvillain}})</p>
+            <br>
+
+            <div id="human-box-info">
+                <table border="0">
+                    <tr>
+                        <td class="col-md-1 altego">
+                            <p class="altego">Alter Ego</p>
+                        </td>
+                        <td class="col-md-10" valign="top">{{superhuman.alterego}}</td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-1"></td>
+                        <td class="col-md-10">
+                            <p class="human-box-descego">{{superhuman.description}}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-1" valign="top">Height</td>
+                        <td class="col-md-10">{{superhuman.height}}</td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-1" valign="top">Weight</td>
+                        <td class="col-md-10">{{superhuman.weight}}</td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-1" valign="top">Ability</td>
+                        <td class="col-md-10">{{superhuman.power}}</td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-1" valign="top">Enemy</td>
+                        <td class="col-md-10">{{superhuman.enemy}}</td>
+                    </tr>
+                </table>
+            </div>
+
+            <br><br>
+            <div class="human-box-image" onclick="$( '.formData ').slideDown();" (click)="showEditSuperhuman(superhuman)" title="Edit this {{superhuman.heroorvillain}}">
+                <img [src]="superhuman.imageurl" onerror="this.src='assets/alterEgo.jpg'" class="box-image" />
+            </div>
+            <br><br>
+
+            <p class="human-box-desc">{{superhuman.description1}}</p>
+            <p class="human-box-desc">{{superhuman.description2}}</p>
+
+            <br>
+            <div id="human-box-by">posted by: <strong>{{superhuman.postedby}}</strong></div>
+            <br>
+        </div>
+    </tr>
+    <br>
+    <br>
+</div>
+
+<div *ngIf="dangerActive" class="showMe bg-danger" id="dangerActive">
+    <p>{{textMsg}}</p>
+</div>
+
+<div id="super-human-sidebar" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+
+    <div class="superhuman-sidebar-head panel-heading panel panel-default"><strong>Heroes and Villains</strong>
+        <!-- <a href="javascript:void(0); " class="glyphicon glyphicon-plus " onclick="$( '.formData ').slideDown();" (click)="showNewSuperhuman() " title="New Super Human "></a> -->
+        <a class="glyphicon glyphicon-plus newPlus" onclick="$( '.formData ').slideDown();" (click)="showNewSuperhuman() " title="New Super Human "></a>
+    </div>
+
+    <div class="panel-body none formData ">
+
+        <form *ngIf="newSuperhumanActive" id="myForm">
+            <div class="form-group ">
+                <label>Name </label>
+                <input type="text " class="form-control " [(ngModel)]="newSuperhuman.name" name="newName" id="newName" />
+            </div>
+
+            <div>
+                <td>
+                    <div class="form-group ">
+                        <label>Character </label>
+                        <select class="form-control " [(ngModel)]="newSuperhuman.heroorvillain" name="heroorvillain" id="heroorvillain" required>
+                            <option value="hero">Hero</option>
+                            <option value="villain">Villain</option>
+                        </select>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group ">
+                        <label>Alter Ego </label>
+                        <input type="text " class="form-control " [(ngModel)]="newSuperhuman.alterego" name="alterego" id="alterego" />
+                    </div>
+                </td>
+            </div>
+
+            <div class="form-group ">
+                <label>Description</label>
+                <textarea rows="3" cols="50" class="form-control" [(ngModel)]="newSuperhuman.description" name="description"></textarea>
+            </div>
+
+            <div>
+                <td>
+                    <div class="form-group ">
+                        <label>Height </label>
+                        <input type="text " class="form-control " [(ngModel)]="newSuperhuman.height" name="height" id="height" />
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group ">
+                        <label>Weight </label>
+                        <input type="text " class="form-control " [(ngModel)]="newSuperhuman.weight" name="weight" id="weight" />
+                    </div>
+                </td>
+            </div>
+
+            <div>
+                <td>
+                    <div class="form-group ">
+                        <label>Ability</label>
+                        <input type="text " class="form-control " [(ngModel)]="newSuperhuman.power" name="power" id="power" />
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group ">
+                        <label>Enemy </label>
+                        <input type="text " class="form-control " [(ngModel)]="newSuperhuman.enemy" name="enemy" id="enemy" />
+                    </div>
+                </td>
+            </div>
+
+            <div class="form-group ">
+                <label>Add image: {{sizeLimit}}kb max. file size</label><br>
+                <input type="file" class="form-control" id="selectNewFile" name="selectNewFile" accept="image/*" class="btn btn-success" (change)="checkImageInfo($event,'selectNewFile')" />
+            </div>
+
+            <div class="form-group ">
+                <label>Description 1</label>
+                <textarea rows="3" cols="50" class="form-control" [(ngModel)]="newSuperhuman.description1" name="description1"></textarea>
+            </div>
+            <div class="form-group ">
+                <label>Description 2</label>
+                <textarea rows="3" cols="50" class="form-control" [(ngModel)]="newSuperhuman.description2" name="description2"></textarea>
+            </div>
+
+            <div>
+                <td>
+                    <div class="form-group ">
+                        <label>Posted by </label>
+                        <input type="text" class="form-control " [(ngModel)]="newSuperhuman.postedby" name="postedby" />
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group ">
+                        <label>Post access </label>
+                        <input type="password" class="form-control " [(ngModel)]="newSuperhuman.postaccess" name="postaccess" />
+                    </div>
+                </td>
+            </div>
+
+            <!-- <a href="javascript:void(0); " class="glyphicon glyphicon-save btn btn-success " onclick="$( '.formData ').slideUp(); $( '.alert-success ').slideDown(); " (click)="saveNewSuperhuman(newSuperhuman)">Save</a>
+            <a href="javascript:void(0); " class="glyphicon glyphicon-ban-circle btn btn-warning " onclick="$( '.formData ').slideUp(); $( '.alert-warning ').slideDown(); " (click)="resetSuperhuman(newSuperhuman)">Cancel</a> -->
+            <a class="btn btn-success " onclick="$( '.formData ').slideUp(); $( '.alert-success ').slideDown(); " (click)="saveNewSuperhuman(newSuperhuman)"><span class="glyphicon glyphicon-save"></span>Save</a>
+            <a class="btn btn-warning " onclick="$( '.formData ').slideUp(); $( '.alert-warning ').slideDown(); " (click)="resetSuperhuman(newSuperhuman)"><span class="glyphicon glyphicon-ban-circle"></span>Cancel</a>
+        </form>
+
+        <form *ngIf="editSuperhumanActive" id="myForm">
+            <div class="form-group ">
+                <label>Name </label>
+                <input type="text " class="form-control adjust-font" [(ngModel)]="editSuperhuman.name" name="name" disabled/>
+            </div>
+
+            <div>
+                <td>
+                    <div class="form-group ">
+                        <label>Character </label>
+                        <select class="form-control" [(ngModel)]="editSuperhuman.heroorvillain" name="heroorvillain" id="heroorvillain" value="editSuperhuman.heroorvillain" required>
+                            <option value="hero">Hero</option>
+                            <option value="villain">Villain</option>
+                        </select>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group ">
+                        <label>Alter Ego </label>
+                        <input type="text " class="form-control" [(ngModel)]="editSuperhuman.alterego" name="alterego" id="alterego" />
+                    </div>
+                </td>
+            </div>
+
+            <div class="form-group ">
+                <label>Description</label>
+                <textarea rows="3" cols="50" class="form-control" [(ngModel)]="editSuperhuman.description" name="description" #description></textarea>
+            </div>
+
+            <div>
+                <td>
+                    <div class="form-group ">
+                        <label>Height </label>
+                        <input type="text " class="form-control" [(ngModel)]="editSuperhuman.height" name="height" id="height" />
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group ">
+                        <label>Weight </label>
+                        <input type="text " class="form-control" [(ngModel)]="editSuperhuman.weight" name="weight" id="weight" />
+                    </div>
+                </td>
+            </div>
+
+            <div>
+                <td>
+                    <div class="form-group ">
+                        <label>Ability</label>
+                        <input type="text " class="form-control " [(ngModel)]="editSuperhuman.power" name="power" id="power" />
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group ">
+                        <label>Enemy </label>
+                        <input type="text " class="form-control" [(ngModel)]="editSuperhuman.enemy" name="enemy" id="enemy" />
+                    </div>
+                </td>
+            </div>
+
+            <div class="form-group ">
+                <label>Change image: {{sizeLimit}}kb max. file size</label><br>
+                <input type="file" class="form-control" id="selectOldFile" name="selectOldFile" accept="image/*" class="btn btn-success" (change)="checkImageInfo($event,'selectOldFile')" />
+            </div>
+
+            <div class="form-group ">
+                <label>Description 1</label>
+                <textarea rows="3" cols="50" class="form-control" [(ngModel)]="editSuperhuman.description1" name="description1" #description1></textarea>
+            </div>
+            <div class="form-group ">
+                <label>Description 2</label>
+                <textarea rows="3" cols="50" class="form-control" [(ngModel)]="editSuperhuman.description2" name="description2"></textarea>
+            </div>
+
+            <div>
+                <td>
+                    <div class="form-group ">
+                        <label>Posted by </label>
+                        <input type="text" class="form-control" [(ngModel)]="editSuperhuman.postedby" name="postedby" />
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group ">
+                        <label>Post access </label>
+                        <input type="password" class="form-control" [(ngModel)]="editPostaccess" name="postaccess" />
+                    </div>
+                </td>
+            </div>
+
+            <!-- <a href="javascript:void(0); " class="glyphicon glyphicon-save btn btn-success " onclick="$( '.formData ').slideUp(); $( '.alert-success ').slideDown(); " (click)="saveEditSuperhuman(editSuperhuman)">Save</a>
+            <a href="javascript:void(0); " class="glyphicon glyphicon-ban-circle btn btn-warning " onclick="$( '.formData ').slideUp(); $( '.alert-warning ').slideDown(); " (click)="resetSuperhuman(editSuperhuman)">Cancel</a>
+            <a href="javascript:void(0); " class="glyphicon glyphicon-trash btn btn-danger " onclick="$( '.formData ').slideUp(); $( '.alert-danger ').slideDown(); " (click)="deleteSuperhuman(editSuperhuman)">Delete</a> -->
+            <a class="btn btn-success " onclick="$( '.formData ').slideUp(); $( '.alert-success ').slideDown(); " (click)="saveEditSuperhuman(editSuperhuman)"><span class="glyphicon glyphicon-save "></span>Save</a>
+            <a class="btn btn-warning " onclick="$( '.formData ').slideUp(); $( '.alert-warning ').slideDown(); " (click)="resetSuperhuman(editSuperhuman)"><span class="glyphicon glyphicon-ban-circle"></span>Cancel</a>
+            <a class="btn btn-danger " onclick="$( '.formData ').slideUp(); $( '.alert-danger ').slideDown(); " (click)="deleteSuperhuman(editSuperhuman)"><span class="glyphicon glyphicon-trash "></span>Delete</a>
+        </form>
+
+    </div>
+</div>

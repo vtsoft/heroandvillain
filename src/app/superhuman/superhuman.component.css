@@ -1,0 +1,424 @@
+.super-human-box {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.human-box {
+    width: 750px;
+    float: left;
+    display: block;
+    padding: 15px 20px;
+    margin: .1% .1%;
+    cursor: default;
+    background-color: white;
+}
+
+.human-box-image {
+    width: 250px;
+    /* padding: 0px 1px 0px 1px; */
+    float: left;
+    /* background-color: black; */
+    background-color: #362F2F;
+    box-shadow: 2px 2px #CBCBEB;
+}
+
+.human-box-image:hover {
+    cursor: pointer;
+}
+
+.human-box-name,
+.human-box-char {
+    text-align: center;
+    font-size: 15px;
+    width: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+.human-box-name {
+    font-size: 20px;
+}
+
+#human-box-info {
+    float: left;
+    display: block;
+    font-size: 14px;
+    width: 727px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    text-align: justify;
+}
+
+#human-box-by {
+    float: left;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    width: 100%;
+    margin-left: 14px;
+}
+
+.human-box-desc {
+    padding: 1px 15px 2px 5px;
+    text-align: justify;
+    text-indent: 30px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.human-box-descego {
+    text-align: justify;
+    text-indent: 30px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.human-box-image {
+    float: left;
+    display: block;
+    margin: 1% 1%;
+}
+
+.box-image {
+    width: 100%;
+}
+
+.super-human-footer {
+    float: left;
+    padding: 0;
+    height: 50;
+    width: 750px;
+    background-color: white;
+}
+
+#super-human-sidebar {
+    float: right;
+    background-color: whitesmoke;
+    border-style: none ridge ridge none;
+    overflow-y: auto;
+    margin-right: 8px;
+}
+
+.superhuman-sidebar-head {
+    font-size: 18px;
+    cursor: default;
+    background-color: lightcyan;
+    margin-top: 2px;
+}
+
+.glyphicon-plus {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.glyphicon {
+    margin-right: 5px;
+}
+
+.glyphicon-thumbs-up {
+    margin-left: 2px;
+}
+
+.filterDiv,
+.showFilterButton {
+    margin-left: 18px;
+    position: fixed;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+.showPage {
+    /* width: 750px; */
+    width: 22px;
+    height: 22px;
+    margin-top: 6px;
+    margin-left: 2px;
+    position: fixed;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+
+/* .pageNo {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 20px;
+    color: black;
+} */
+
+.showFilterButton {
+    margin-top: 4px;
+    margin-left: 2px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.showFilterButton:hover,
+.newPlus {
+    cursor: pointer;
+}
+
+#pageClickDiv {
+    width: 750px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    /* font-size: 18px; */
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    z-index: 10000;
+}
+
+.adjust-font {
+    font-weight: bold;
+}
+
+.spinner,
+.wait {
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    margin-left: 28%;
+    margin-top: 15%;
+    background-color: transparent;
+}
+
+.wait {
+    /* visibility: visible; */
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    /* margin-left: 29%;
+    margin-top: 18.2%; */
+    font-size: 20px;
+    color: green;
+    z-index: 10000;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 2px;
+}
+
+.altego {
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.pager {
+    width: 100%;
+    height: 30px;
+}
+
+.pageClick {
+    float: left;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    background-color: #045204;
+}
+
+.pageLabel {
+    float: left;
+    display: block;
+    font-size: 14px;
+    margin-top: 1px;
+    margin-right: 5px;
+    margin-left: 4px;
+    text-align: center;
+    cursor: default;
+    /* background-color: blue; */
+    /* margin: 0 auto;
+    padding: 0; */
+}
+
+.pageLeft,
+.pageRight {
+    float: left;
+    display: block;
+    font-size: 16px;
+    margin-top: 4px;
+    width: 20px;
+    margin-left: 70px;
+    text-align: center;
+    cursor: default;
+}
+
+.pageRight {
+    margin-left: 5px;
+}
+
+.pageDiv {
+    float: left;
+    display: block;
+    width: 90%;
+    height: 100%;
+}
+
+.pageNumber {
+    width: 20px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.pageValue {
+    display: block;
+    margin-top: 2px;
+    margin-left: 2px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.pageValue:hover {
+    background-color: #10D0F1 !important;
+    cursor: pointer;
+}
+
+.pageNo {
+    float: left;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 40px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.devBy {
+    float: right;
+    display: block;
+    margin: 0;
+    padding: 0;
+    /* text-align: right; */
+    margin-top: 4px;
+    margin-right: 15px;
+    font-size: 12px;
+    width: 155px;
+    /* width: 100%; */
+    cursor: default;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #10D0F1;
+    cursor: pointer;
+}
+
+
+/* #pageClickDiv li.active a {
+    background-color: #4706DD;
+    color: green;
+    cursor: default;
+}
+
+#pageClick li.active a {
+    background-color: #EDEDC8;
+    color: green;
+    cursor: default;
+} */
+
+
+/* li.active a:focus  */
+
+
+/* li.active a { */
+
+
+/* .prod.active>a:focus { */
+
+.active {
+    background-color: #78CFBE;
+    /* background-color: #EDEDC8;
+    box-shadow: 2px 4px 12px 0px #41418D; */
+}
+
+
+/* .hero.active>a,
+.hero.active>a:focus {
+    background-color: #7890CF;
+}
+
+.villain.active>a,
+.villain.active>a:focus {
+    background-color: #7890CF;
+} */
+
+.showMe {
+    position: fixed;
+    z-index: 1000;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 2px 2px 4px 2px gray;
+    border-radius: 10px 0px 10px 0px;
+    margin-top: .5%;
+    left: 59%;
+    -webkit-animation: cssAnimation 3.8s forwards;
+    animation: cssAnimation 3.8s forwards;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.percent {
+    position: absolute;
+    width: 300px;
+    height: 14px;
+    z-index: 1;
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+}
+
+.progress-bar {
+    width: 300px;
+    height: 14px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6666cc), to(#4b4b95));
+    border-image: initial;
+}
+
+.uploaded {
+    padding: 0;
+    height: 14px;
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#66cc00), to(#4b9500));
+    border-image: initial;
+}
