@@ -12,8 +12,7 @@ npm install
 # create the database
 create herovillain_db using phpmyadmin
 
-# import the table configuration and sample data 
-# you can add the data thru the page as well
+# import the table configuration and sample data you can add the data thru the page as well
 in phpmyadmin goto import tab and choose a file herovillain_db.sql at heroandvillain/superhuman/api folder then go
 
 # development server
