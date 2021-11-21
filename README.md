@@ -9,7 +9,7 @@ cd heroandvillain
 # Install npm
 npm install 
 
-# install angular globally
+# Install Angular globally
 npm install -g @angular/cli
 
 # Create the database
