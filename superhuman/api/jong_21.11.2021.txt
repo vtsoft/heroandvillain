@@ -1,0 +1,480 @@
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 8:36 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Empty data!: all
+-------------------------
+api: /heroandvillain/superhuman/api/uploadSuperhuman.php - November 21, 2021, 8:39 pm
+UploadSuperhuman: 
+Source Image Name: 9_Spider-Man.png
+Actual Image File: C:\xampp\tmp\phpED0C.tmp
+Source Image Name: upload/Spider-Man.png
+Target Image Name: upload/0_Spider-Man.png
+-------------------------
+source: upload/Spider-Man.png
+target: upload/0_Spider-Man.png
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 8:39 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 8:40 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 8:43 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 8:47 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 8:47 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 8:51 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 8:51 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 8:51 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 8:55 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: /heroandvillain/superhuman/api/uploadSuperhuman.php - November 21, 2021, 9:04 pm
+UploadSuperhuman: 
+Source Image Name: Hulk.png
+Actual Image File: C:\xampp\tmp\php8C4A.tmp
+Source Image Name: upload/Hulk.png
+Target Image Name: upload/0_Hulk.png
+-------------------------
+source: upload/Hulk.png
+target: upload/0_Hulk.png
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 9:04 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: /heroandvillain/superhuman/api/uploadSuperhuman.php - November 21, 2021, 9:09 pm
+UploadSuperhuman: 
+Source Image Name: Superman.png
+Actual Image File: C:\xampp\tmp\php22AC.tmp
+Source Image Name: upload/Superman.png
+Target Image Name: upload/0_Superman.png
+-------------------------
+source: upload/Superman.png
+target: upload/0_Superman.png
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 9:09 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: /heroandvillain/superhuman/api/uploadSuperhuman.php - November 21, 2021, 9:18 pm
+UploadSuperhuman: 
+Source Image Name: Abomination.png
+Actual Image File: C:\xampp\tmp\php3E3D.tmp
+Source Image Name: upload/Abomination.png
+Target Image Name: upload/0_Abomination.png
+-------------------------
+source: upload/Abomination.png
+target: upload/0_Abomination.png
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 9:18 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 9:19 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 9:21 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 9:21 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 9:21 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=hero&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:15 pm
+filter GET: hero
+-------------------------
+Pass k: hero
+sql: SELECT * FROM herovillain where heroorvillain = 'hero' order by name asc
+-------------------------
+Pass Data: hero
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=villain&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:15 pm
+filter GET: villain
+-------------------------
+Pass k: villain
+sql: SELECT * FROM herovillain where heroorvillain = 'villain' order by name asc
+-------------------------
+Pass Data: villain
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:15 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:20 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:20 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:21 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:28 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:30 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:30 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:30 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:30 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:30 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:31 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:31 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:31 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:31 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:31 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:31 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:31 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:31 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:32 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:32 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:32 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:32 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:32 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:32 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:32 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:32 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:33 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:33 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:33 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:33 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:34 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:34 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:37 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:37 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:38 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
+api: http://localhost/heroandvillain/superhuman/api/listSuperhumans.php/?fk=all&servername=localhost:3306&username=root&password=&dbname=herovillain_db&tbname=herovillain&online=false - November 21, 2021, 10:52 pm
+filter GET: all
+-------------------------
+Pass All: all
+sql: SELECT * FROM herovillain order by datepost desc
+-------------------------
+Pass Data: all
+-------------------------
