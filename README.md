@@ -9,6 +9,9 @@ cd heroandvillain
 # Install npm
 npm install 
 
+# install angular globally
+npm install -g @angular/cli
+
 # Create the database
 create herovillain_db using phpmyadmin
 
